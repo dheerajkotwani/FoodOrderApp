@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".summaryAct">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/order"
+        >
+
+        <TextView
+            android:id="@+id/sum1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Order Summary:"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            />
+        <TextView
+            android:id="@+id/sum2"
+            android:layout_below="@id/sum1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="25dp"
+            android:text=""
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            />
+        <Button
+            android:background="@drawable/roundedbutton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="50dp"
+            android:text="SEND"
+            android:onClick="send"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
